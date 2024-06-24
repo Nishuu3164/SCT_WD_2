@@ -1,13 +1,21 @@
-body {
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: grey;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: grey;
-    margin: 0;
-    font-family: Arial, sans-serif;
+    text-align: center;
 }
-
 
 .circle {
     display: flex;
@@ -83,6 +91,15 @@ body {
 #resetBtn:hover {
     background-color: #74100e;
     color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 
