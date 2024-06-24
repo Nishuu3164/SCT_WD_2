@@ -19,4 +19,4 @@ Visit the live site: [Demo](https://Nishuu3164.github.io/SCT_WD_2)
 
 # clone
 ```sh
-git clone https://github.com/Nishuu3164/SCT_WD_1.git
+git clone https://github.com/Nishuu3164/SCT_WD_2.git
